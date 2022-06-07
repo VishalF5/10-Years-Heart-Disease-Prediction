@@ -55,7 +55,7 @@ df_pred['BPMeds'] = df_pred['BPMeds'].apply(lambda x: 1 if x == 'Yes' else 0)
 
 
 
-model = pickle.load(open('/home/f5/Desktop/proj.pkl', 'rb'))
+model = pickle.load(open('proj.pkl', 'rb'))
 prediction = model.predict(df_pred)
 
 
