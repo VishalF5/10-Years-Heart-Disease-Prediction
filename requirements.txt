@@ -3,4 +3,4 @@ pandas
 requests
 pickle-mixin
 pybase64
-sklearn
+scikit-learn
